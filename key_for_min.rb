@@ -3,8 +3,9 @@
 
 def key_for_min_value(hash)
   k = nil
-  hash.collect do |key, value|
-   if (value) 
+  v = nil
+  hash.each do |key, value|
+   if (
     
   end
   
