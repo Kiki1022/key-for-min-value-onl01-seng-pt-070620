@@ -5,10 +5,10 @@ def key_for_min_value(hash)
   k = nil
   v = nil
   hash.each do |key, value|
-   if v == nil || value < v
+    if v == nil || value < v
      k = key
      v = value 
+    end
   end
-end
   return k
 end
