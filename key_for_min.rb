@@ -2,6 +2,6 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-names_hash.collect do |key, number|
-  
+names_hash.collect do |key, value|
+ key 
 end
